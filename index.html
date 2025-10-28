@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anikait Sahota - Data Science Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #007BFF; /* Vibrant Blue for Accents */
+            --secondary-color: #333; /* Dark Gray for Headings */
+            --background-color: #f4f7f6; /* Light Gray Background */
+            --text-color: #444;
+            --section-bg: #ffffff; /* White background for sections */
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* --- Header/Hero Section --- */
+        .hero {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.8em;
+            margin-bottom: 0.2em;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 0.9em;
+            transition: color 0.3s;
+        }
+        .contact-info a:hover {
+            color: var(--primary-color);
+        }
+
+        /* --- Main Content Sections --- */
+        .section {
+            background-color: var(--section-bg);
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+            color: var(--secondary-color);
+            font-weight: 700;
+            font-size: 1.8em;
+        }
+
+        /* --- Skills Section Styling (Final Version) --- */
+        .skills-list-minimal {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skill-category-minimal {
+            margin-bottom: 15px;
+            padding: 10px 0;
+        }
+
+        .skill-category-minimal strong {
+            color: var(--secondary-color);
+            font-weight: 700;
+            margin-right: 20px;
+            display: inline-block;
+            min-width: 150px;
+            font-size: 1.1em;
+            vertical-align: top; /* Align the strong tag to the top of the group */
+            padding-top: 5px;
+        }
+
+        .skill-tags-group {
+            display: inline-flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            max-width: calc(100% - 180px); /* Ensure tags wrap nicely */
+        }
+
+        .skill-tags-group span {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            white-space: nowrap;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        /* --- Experience/Education/Project Styling --- */
+        .entry {
+            margin-bottom: 30px;
+            padding-left: 15px;
+            border-left: 4px solid #ddd;
+        }
+
+        .entry h3 {
+            color: var(--primary-color);
+            margin: 0;
+            font-size: 1.4em;
+        }
+
+        .entry p.subtitle {
+            font-style: italic;
+            margin: 5px 0;
+            color: #777;
+            font-size: 1em;
+        }
+
+        .entry ul {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+        
+        .entry li {
+            margin-bottom: 8px;
+            font-weight: 500; 
+        }
+
+        .entry p.subtitle strong {
+            font-weight: 700;
+            color: var(--secondary-color);
+        }
+
+        /* --- Project Specific Styling --- */
+        .project-links a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Anikait Sahota</h1>
+            <p>Data Team Lead | Data Scientist | Machine Learning Engineer</p>
+            <div class="contact-info">
+                <a href="mailto:anikait.sahota01@outlook.com">anikait.sahota01@outlook.com</a>
+                <a href="tel:+919319464131">+91-9319-464-131</a>
+                <a href="https://linkedin.com/in/anikaitsahota" target="_blank">LinkedIn</a>
+                <a href="https://github.com/AnikaitSahota" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="section" id="skills">
+            <h2>🛠️ Core Skills & Technologies</h2>
+            
+            <ul class="skills-list-minimal">
+                
+                <li class="skill-category-minimal">
+                    <strong>Languages:</strong>
+                    <div class="skill-tags-group">
+                        <span>Python</span>
+                        <span>C</span>
+                        <span>Java</span>
+                        <span>C++</span>
+                        <span>SQL</span>
+                        <span>bash</span>
+                        <span>AMPL</span>
+                    </div>
+                </li>
+                
+                <li class="skill-category-minimal">
+                    <strong>Cloud & Big Data:</strong>
+                    <div class="skill-tags-group">
+                        <span>PySpark</span>
+                        <span>Apache Hadoop</span>
+                        <span>Yarn</span>
+                        <span>Apache Spark</span>
+                        <span>SQL Server</span>
+                        <span>Azure</span>
+                    </div>
+                </li>
+
+                <li class="skill-category-minimal">
+                    <strong>Data Science & ML:</strong>
+                    <div class="skill-tags-group">
+                        <span>Scikit-learn</span>
+                        <span>PyTorch</span>
+                        <span>Pandas</span>
+                        <span>Numpy</span>
+                        <span>NLTK</span>
+                    </div>
+                </li>
+
+                <li class="skill-category-minimal">
+                    <strong>Visualization & Analysis:</strong>
+                    <div class="skill-tags-group">
+                        <span>Plotly</span>
+                        <span>Seaborn</span>
+                        <span>Pandas</span>
+                        <span>Numpy</span>
+                    </div>
+                </li>
+                
+                <li class="skill-category-minimal">
+                    <strong>DevOps & Tools:</strong>
+                    <div class="skill-tags-group">
+                        <span>Git</span>
+                        <span>Docker</span>
+                        <span>MongoDB</span>
+                        <span>Linux</span>
+                        <span>OpenCV</span>
+                        <span>Arduino</span>
+                        <span>Raspberry Pi</span>
+                    </div>
+                </li>
+                
+            </ul>
+        </section>
+
+        <section class="section" id="experience">
+            <h2>💼 Work Experience</h2>
+
+            <div class="entry">
+                <h3>JIO | Data Team Lead</h3>
+                <p class="subtitle">Bangalore, India | Oct 2024 – Present</p>
+                <ul>
+                    <li>Led a team of data scientists and analysts, overseeing the development and implementation of data systems.</li>
+                    <li>Mentored junior team members and coordinated cross-functional collaboration with business stakeholders to ensure data solutions effectively address business needs.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>JIO | Data Scientist</h3>
+                <p class="subtitle">Bangalore, India | June 2022 – Sept 2024</p>
+                <ul>
+                    <li>Engineered a comprehensive data management system from scratch, validating various data sources and implementing data pipelines to consolidate information into a data lake.</li>
+                    <li>Deployed a batch-processing framework utilizing Hadoop-HDFS, YARN, and Apache Spark, achieving a 75% improvement in processing time efficiency.</li>
+                    <li>Conducted extensive research in data processing, delivering detailed insights into asset management.</li>
+                    <li>Developed and categorized user-friendly visualizations to effectively present both real-time and historical data findings to business clients.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>IIIT | UG Researcher (Neural Architecture Search)</h3>
+                <p class="subtitle">Delhi, India | Jan 2022 - May 2022</p>
+                <ul>
+                    <li>Developed Neural Architecture Search (NAS) algorithms tailored for resource-constrained IoT devices and image datasets (e.g., MNIST, CIFAR).</li>
+                    <li>Extended and implemented NAS algorithms within federated learning environments, optimizing for constrained hardware parameters.</li>
+                </ul>
+            </div>
+            
+            <div class="entry">
+                <h3>IIIT | UG Researcher (Brain MRI Analysis)</h3>
+                <p class="subtitle">Delhi, India | Aug 2021 - May 2022</p>
+                <ul>
+                    <li>Conducted visual analysis of brain MRI structural images (using the ABIDE dataset).</li>
+                    <li>Performed voxel-based morphometry and statistical methods to compare brain morphology between typically developed individuals and those with Autism Spectrum Disorder (ASD).</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="section" id="projects">
+            <h2>💡 Key Projects</h2>
+
+            <div class="entry">
+                <h3>CONSTELLATION DETECTION</h3>
+                <p class="subtitle"><strong>Technologies:</strong> PYTHON, OPENCV, MATPLOTLIB, NUMPY</p>
+                <p>Developed an image processing tool to classify and detect constellations from night sky images using details published by the International Astronomical Union (IAU).</p>
+                <p class="project-links"><a href="YOUR_GITHUB_LINK_HERE" target="_blank">View Project on GitHub &rarr;</a></p>
+            </div>
+
+            <div class="entry">
+                <h3>CAPITOL (PAT)RIOTS Social Media Analysis</h3>
+                <p class="subtitle"><strong>Technologies:</strong> PYTHON, NLTK, PLOTLY, PANDAS, NUMPY</p>
+                <p>Re-implemented a research paper analyzing social media (Parler) activities related to the USA Capitol riots. Processed data to validate original claims and deduced new inferences from the dataset.</p>
+                <p class="project-links"><a href="YOUR_GITHUB_LINK_HERE" target="_blank">View Project on GitHub &rarr;</a></p>
+            </div>
+        </section>
+
+        <section class="section" id="education">
+            <h2>🎓 Education</h2>
+            <div class="entry">
+                <h3>Bachelor of Technology in Computer Science</h3>
+                <p class="subtitle">INDRAPRASTHA INSTITUTE OF INFORMATION TECHNOLOGY | Delhi, India</p>
+                <p>2018 - 2022</p>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
